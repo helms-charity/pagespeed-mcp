@@ -183,6 +183,11 @@ cd pagespeed-mcp
 npm install
 npm run build
 ```
+### Add to MCP Server in Cursor
+Command: replace my path with yours
+```bash
+node ~/IdeaProjects/pagespeed-mcp/pagespeed-mcp/dist/index.js
+```
 
 ### Running Tests
 ```bash
