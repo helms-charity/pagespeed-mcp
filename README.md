@@ -17,7 +17,7 @@ To install PageSpeed Server for Claude Desktop automatically via [Smithery](http
 npx -y @smithery/cli install mcp-pagespeed-server --client claude
 ```
 
-### Manual Installation
+### Manual Installation - NOT WORKING
 ```bash
 npm install pagespeed-mcp-server
 ```
@@ -147,7 +147,7 @@ The MCP server includes robust error handling for:
 
 ### Basic Integration
 ```javascript
-const PageSpeedMCP = require('pagespeed-mcp-server');
+const PageSpeedMCP = require('pagespeed-mcp');
 const mcp = new PageSpeedMCP();
 
 await mcp.analyze('https://example.com');
