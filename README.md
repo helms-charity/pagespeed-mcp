@@ -178,7 +178,7 @@ const results = await mcp.analyze('https://example.com', {
 
 ### Building from Source
 ```bash
-git clone https://github.com/phialsbasement/mcp-pagespeed-server
+git clone https://github.com/helms-charity/pagespeed-mcp
 cd mcp-pagespeed-server
 npm install
 npm run build
